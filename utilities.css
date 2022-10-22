@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #f5fcfb;
+  --secondary-color: #5444b1;
+  --dark-color: #000000;
+  --light-color: #eff7ec;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}

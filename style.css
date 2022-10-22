@@ -1,0 +1,139 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--dark-color);
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar li {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar li:hover {
+  background-color: var(--secondary-color);
+  transition: 0.2s;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: var(--primary-color);
+}
+
+.navbar span {
+  color: var(--secondary-color);
+}
+/* Header Content */
+.hero {
+  height: 100vh;
+  background: url("https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg")
+    no-repeat center center/cover;
+}
+.content {
+  color: var(--secondary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 2rem;
+}
+/* Main */
+.main-content {
+  text-align: center;
+  padding: 2rem;
+}
+main i {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+.main-content h2 {
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+/* Section2 */
+.information-content {
+  display: flex;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.text-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content p {
+  padding-top: 10px;
+  text-indent: 15px;
+}
+.text-content h2 {
+  color: var(--dark-color);
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 0.5rem 2rem;
+  color: var(--primary-color);
+  width: 30%;
+  background-color: transparent;
+  border: 2px solid var(--light-color);
+}
+.btn:hover {
+  cursor: pointer;
+  border-color: var(--dark-color);
+  transition: 0.2s;
+}
+.info img {
+  height: 100%;
+}
+/* Section3 */
+.text-sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.text-sec3 h2 {
+  color: var(--secondary-color);
+}
+.text-sec3 p {
+  text-align: center;
+  margin-top: 10px;
+}
+.photos-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+.photos-content img {
+  width: 24.5%;
+}
